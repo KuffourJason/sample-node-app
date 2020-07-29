@@ -23,6 +23,36 @@ do_begin() {
   return 0;
 }
 
+do_before() {
+  echo "before"
+  return 0;
+}
+
+do_download() {
+  echo "download"
+  return 0;
+}
+
+do_verify() {
+  echo "verify"
+  return 0;
+}
+
+do_clean() {
+  echo "clean"
+  return 0;
+}
+
+do_prepare() {
+  echo "prepare"
+  return 0;
+}
+
+do_check() {
+  echo "check"
+  return 0;
+}
+
 # Habitat provides you with a number of built-in "callbacks" to use
 # in the course of your build, all of which are explained in the docs
 # at https://habitat.sh/docs/reference/#reference-callbacks.
