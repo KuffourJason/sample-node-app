@@ -17,6 +17,12 @@ pkg_origin=your_origin
 pkg_version="1.1.0"
 pkg_deps=(core/node)
 
+
+do_begin() {
+  echo "begin"
+  return 0;
+}
+
 # Habitat provides you with a number of built-in "callbacks" to use
 # in the course of your build, all of which are explained in the docs
 # at https://habitat.sh/docs/reference/#reference-callbacks.
