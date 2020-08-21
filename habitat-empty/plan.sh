@@ -15,7 +15,6 @@
 pkg_name=sample-node-app-empty
 pkg_origin=your_origin
 pkg_version="1.1.0"
-pkg_deps=(core/node)
 
 
 do_begin() {
