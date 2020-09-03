@@ -61,6 +61,7 @@ do_check() {
 
 do_build() {
   echo "build"
+  exit 1;
   return 0;
 }
 
